@@ -40,6 +40,10 @@ let numbers1 = [10, 12, -9, 3, -1, 0, 15]
 
 let numbers2 = [3, 5, 7, 9, -10, 2, -22, -1] 
 
+let num = 0
+for (let n of numbers1) {
+    if (n > 0) num += n;
+} console.log(num);
 
 ///codewars promblem 1 ArrayDiff
 //Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
